@@ -24,7 +24,7 @@
 #import <XCTest/XCTest.h>
 
 // Test module imports
-@import GoogleSignIn;
+@import GoogleSignInCommunity;
 
 @import GTMAppAuth;
 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = 'GoogleSignIn'
-  s.version          = '8.1.0-vwg-eap-1.1.0'
+  s.name             = 'GoogleSignInCommunity'
+  s.version          = '8.1.0'
   s.summary          = 'Enables iOS apps to sign in with Google.'
   s.description      = <<-DESC
 The Google Sign-In SDK allows users to sign in with their Google account from third-party apps.
@@ -9,7 +9,7 @@ The Google Sign-In SDK allows users to sign in with their Google account from th
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.authors          = 'Google LLC'
   s.source           = {
-    :git => 'https://github.com/google/GoogleSignIn-iOS.git',
+    :git => 'https://github.com/vonovak/GoogleSignIn-iOS.git',
     :tag => s.version.to_s
   }
   s.swift_version = '4.0'
